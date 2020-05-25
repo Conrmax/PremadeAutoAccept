@@ -100,10 +100,12 @@ local function OnApplicantListUpdated()
 			end
 			-- tried to fix the raid convert spam bug
 			if displayedRaidConvert and not IsInRaid(LE_PARTY_CATEGORY_HOME) then
-				if futureCount < (MAX_PARTY_MEMBERS + 1) then
+				local futureCount = GetNumGroupMembers(LE_PARTY_CATEGORY_HOME) + C_LFGList.GetNumInvitedApplicantMembers() + C_LFGList.GetNumPendingApplicantMembers();
+				if futureCount < 6 then
 					InviteApplicants();
 					do return end;
 				else
+					-- print("DEBUG:"..futureCount);
 					do return end;
 				end 
 			end
@@ -121,7 +123,7 @@ local function OnEvent(self, event, ...)
 			OnLoad();
 			self:UnregisterEvent("ADDON_LOADED");
 		end
-	elseif event == "LFG_LIST_APPLICANT_LIST_UPDATED" or event == "PARTY_LEADER_CHANGED" then
+	elseif event == "LFG_LIST_APPLICANT_LIST_UPDATED" or event == "PARTY_LEADER_CHANGED" or event == "GROUP_ROSTER_UPDATE" then
 		OnApplicantListUpdated();
 	elseif event == "GROUP_LEFT" then
 		isAutoAccepting = false;

@@ -2,7 +2,7 @@
 ## Title: PremadeAutoAccept
 ## Notes: Returns the auto-accept button to the premade group finder
 ## Author: Kruithne
-## Version: 1.2.2
+## Version: 1.2.3
 
 ## X-Curse-Project-ID: premade-auto-accept
 ## X-GitHub-Repo: Kruithne/PremadeAutoAccept

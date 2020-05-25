@@ -1,3 +1,7 @@
+** Version 1.2.3 **
+* Fix: Auto invite after 1 player left at full party.
+* some debug code.
+
 ** Version 1.2.2 **
 * Enabled auto-invite for +5 groups again. // spam bug seems fixed.
 
