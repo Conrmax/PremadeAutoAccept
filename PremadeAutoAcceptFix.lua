@@ -1,4 +1,9 @@
 --[[
+	I just fixed it. -> Lonermax
+	https://github.com/Lonermax/PremadeAutoAccept
+
+
+	Original created by:
 	PremadeAutoAccept (C) Kruithne <kruithne@gmail.com>
 	Licensed under GNU General Public Licence version 3.
 
@@ -117,9 +122,9 @@ end
 local function OnEvent(self, event, ...)
 	if event == "ADDON_LOADED" then
 		local addonName = ...;
-		local ADDON_NAME = "PremadeAutoAccept";
+		local ADDON_NAME = "PremadeAutoAcceptFix";
 
-		if addonName == "PremadeAutoAccept" then
+		if addonName == "PremadeAutoAcceptFix" then
 			OnLoad();
 			self:UnregisterEvent("ADDON_LOADED");
 		end

@@ -1,0 +1,4 @@
+package-as: PremadeAutoAcceptFix
+
+manual-changelog: CHANGELOG.md
+license-output: LICENSE

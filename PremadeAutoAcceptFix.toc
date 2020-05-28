@@ -1,0 +1,9 @@
+## Interface: 80300
+## Title: PremadeAutoAccept |cFFFF0000Fix
+## Notes: Returns the auto-accept button to the premade group finder
+## Author: Original: Kruithne Fix: Lonermax
+## Version: 1.3
+
+## X-GitHub-Repo: Lonermax/PremadeAutoAccept
+
+PremadeAutoAcceptFix.lua

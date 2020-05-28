@@ -1,3 +1,6 @@
+** Version 1.3 **
+* Curse release.
+
 ** Version 1.2.3 **
 * Fix: Auto invite after 1 player left at full party.
 * some debug code.
