@@ -70,7 +70,7 @@ end
 
 local function CreateAutoAcceptButtons()
 	local header = LFGListFrame.ApplicationViewer:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall");
-	header:SetPoint("BOTTOMLEFT", LFGListFrame.ApplicationViewer.InfoBackground, "BOTTOMLEFT", 12, 30);
+	header:SetPoint("BOTTOMLEFT", LFGListFrame.ApplicationViewer.InfoBackground, "BOTTOMLEFT", 12, 25);
 	header:SetText(LFG_LIST_AUTO_ACCEPT);
 	header:SetJustifyH("LEFT");
 

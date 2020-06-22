@@ -1,3 +1,6 @@
+** Version 1.3.1 **
+* Small UI tweak (itemlevel or private mode coverd the text.)
+
 ** Version 1.3 **
 * Curse release.
 
