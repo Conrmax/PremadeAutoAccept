@@ -1,3 +1,8 @@
+** Version 1.3.2 **
+* NOT TESTED!
+* Debug for Shadowlands pre-patch (credit: https://github.com/virtualbs) 
+
+
 ** Version 1.3.1 **
 * Small UI tweak (itemlevel or private mode coverd the text.)
 
