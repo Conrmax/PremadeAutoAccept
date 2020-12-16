@@ -1,3 +1,6 @@
+** Version 1.3.3 **
+* toc push *
+
 ** Version 1.3.2 **
 * NOT TESTED!
 * Debug for Shadowlands pre-patch (credit: https://github.com/virtualbs) 
